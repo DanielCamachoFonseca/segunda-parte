@@ -1,0 +1,83 @@
+body{
+  font: 15px Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+header{
+  background-color: #24282b;
+  color: #fff;
+  padding: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid #1293d4;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #marca{
+  float: left;
+}
+
+header #marca h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px
+}
+
+#boletin{
+  padding: 15px;
+  color: #fff;
+  background: #24282b;
+  }
+
+#boletin h1{
+    float: left;
+    }
+
+#boletin form{
+      float: right;
+      margin-top: 15px;
+      }
+
+#boletin input[type="email"]{
+        padding: 4px;
+        height: 25px;
+        width: 250px;
+        }
+
+header .resaltado, header .actual a{
+  color: #1293d4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+}
+
+
+form { margin-left: 550px; padding: 50px; background: #1293d4; width: 250px; }
+label { font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #FFF; display: block; }
+
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #1293d4;
+  text-align: center;
+}
